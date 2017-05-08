@@ -1,0 +1,120 @@
+body{
+	background-image: url("bintang.gif");
+	margin: 0;
+	padding: 0 400px 60px 400px;
+	border: 0;
+	width: 50%;
+}
+
+header{
+	text-align: center; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+table, td, th{
+	border:1px solid #00ffff;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th.kanan{
+	height: 100px;
+	width: 100%;
+	background-color: #00ffff;
+}
+
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid pink;
+    margin: 1em 0;
+    padding: 0;
+    width: 50%;
+}
+
+h1{
+	font-family: Ravie;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+h2{
+	font-family: 'Allan';
+	font-size: 22px;
+}
+.baris{
+	width: 100%;
+	margin-top: 0.3;
+	margin-bottom: 0.5;
+	height: 100%;
+	vertical-align: middle;
+}
+
+img{
+	width: 60%;
+}
+
+.isinya{
+	background: #efe4dc;
+	padding: 10%;
+}
+
+.judul{
+	text-align: center;
+}
+.kolkan{
+	font-family: Colonna MT;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: right;
+	margin-right: 10%;
+}
+
+footer{
+	bottom: 0;
+	font-family: Consolas;
+	color: black;
+	width: 100%;
+	position: fixed;
+	height: 4%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer:hover{
+	background-color: #d66d7d;
+	color: white;
+	opacity: 0.3;
+}
